@@ -1,5 +1,6 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
+public class Main {  // Main is sort of a playground right now
+    public static void main(String[] args){
+        Game.game();
+
+      }
+      }
