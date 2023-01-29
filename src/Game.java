@@ -23,7 +23,10 @@ public class Game {
         rooms.add(room2);
 
 // Current Room
-       Room current = room1;
+       Room current=room1;
+
+// Testing Stuff
+        System.out.println(Objects.toString(current.getDesc()));
 
 
 

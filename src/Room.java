@@ -1,7 +1,7 @@
 package src;
 
 public class Room {
-   private int rCode;
+    private int rCode;
    private String name;
    private String desc;
 
