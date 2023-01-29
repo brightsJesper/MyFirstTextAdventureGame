@@ -3,8 +3,10 @@ package src;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Scanner;
 
 public class Game {
+
     public static void game() {
 
 // Rooms Archive - To be moved somewhere
@@ -19,24 +21,23 @@ Room current=room1;
 
 // Testing Stuff
         System.out.println(Objects.toString(current.getDesc()));
-        String command = "north";
-        System.out.println("Command to go north");
-        current = room2;
-        System.out.println(Objects.toString(current.getDesc()));
 
 
+        //String command = "north";
 
-// Controls
-        /*
-        Scanner input = new Scanner(System.in);
-        String command = "north";
+       // System.out.println("Command to go north");
+      //  current = room2;
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.next();
 
-      //  String command = input.next();
-// if for later
-        if (Objects.equals(command, "north")){
-
+        if(input.equals("north")){
+            current=room2;
+            System.out.println("You travel north, through the northern door");
+        }else{
+            System.out.println("Unknown command");
         }
-     */
+
+        System.out.println(Objects.toString(current.getDesc()));
 
     }
 }

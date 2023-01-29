@@ -5,4 +5,4 @@ public class Main {  // Main is sort of a playground right now
         Game.game();
 
       }
-      }
+}
