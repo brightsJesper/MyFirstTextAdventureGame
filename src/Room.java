@@ -1,6 +1,11 @@
 package src;
 
 public class Room {
+    @Override
+    public String toString() {
+        return name;
+    }
+
     private int rCode;
    private String name;
    private String desc;

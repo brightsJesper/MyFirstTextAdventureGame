@@ -1,7 +1,8 @@
 package src;
 
 public class Door {
-    public static void to(Room room){
+    public static Room to(Room room){
+    return room;
 
     }
 
