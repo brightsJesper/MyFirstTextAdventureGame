@@ -6,7 +6,7 @@ import java.util.List;
 public class Command {
     String input;
     List<String> altList = new ArrayList<>();
-    List<Command> commands = new ArrayList<>();
+    static List<Command> commands = new ArrayList<>();
     public Command(String input){
        this.input = input;
    }

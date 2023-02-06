@@ -30,7 +30,7 @@ Room current=room1;
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
 
-        if(input.equals("north")){
+        if(Command.commands.contains(input)){
             current=room2;
             System.out.println("You travel north, through the northern door");
         }else{
