@@ -10,11 +10,14 @@ public class Main {
 
         String input = scanner.nextLine();
 
+        System.out.println(strDivider(input).toString());
+
 
 
         }
 
-    static void stringDivider(String input) {
+    static List<String> strDivider(String input) {
         List<String> resultList = List.of(input.split(" "));
+        return resultList;
         }
     }
