@@ -1,8 +1,19 @@
 package src;
 
-public class Main {  // Main is sort of a playground right now
-    public static void main(String[] args){
-        Game.game();
+public class Main {
 
-      }
-}
+    public static void main(String[] args) {
+        Game.game();
+    }
+/*
+        Scanner scanner = new Scanner(System.in);
+
+        String input = scanner.nextLine();
+
+        System.out.println(Parser.strDivider((input)));
+
+    */
+
+
+
+        }

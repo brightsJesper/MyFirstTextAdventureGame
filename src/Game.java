@@ -7,37 +7,22 @@ import java.util.Scanner;
 
 public class Game {
 
+    public static Room here;
+    public static List<Room> rooms = new ArrayList<>();
+
+
     public static void game() {
 
 // Rooms Archive - To be moved somewhere
         Room room2=new Room ("Second Room","This is the starter description for the second room");
         Room room1=new Room ("Starting Room","This is the starter description for the first room");
-        List<Room> rooms = new ArrayList<>();
         rooms.add(room1);
         rooms.add(room2);
-
 // Current Room
-Room current=room1;
+ here = room1;
 
 // Testing Stuff
-        System.out.println(Objects.toString(current.getDesc()));
 
-
-        //String command = "north";
-
-       // System.out.println("Command to go north");
-      //  current = room2;
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.next();
-
-        if(Command.commands.contains(input)){
-            current=room2;
-            System.out.println("You travel north, through the northern door");
-        }else{
-            System.out.println("Unknown command");
-        }
-
-        System.out.println(Objects.toString(current.getDesc()));
 
     }
 }
