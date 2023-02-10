@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Parser {
     static void in(String input) {
+        input = input.toLowerCase();
         List<String> list = List.of(input.split(" "));
         if (list.size() == 2) {
             switch (list.get(0)) {

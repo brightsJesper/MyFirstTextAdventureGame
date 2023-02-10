@@ -7,8 +7,10 @@ import java.util.Scanner;
 
 public class Game {
     public static void game() {
-        Vault.init();
-// Testing Stuff
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+
+
 
     }
 }

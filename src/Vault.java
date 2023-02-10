@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Vault {
-    public static Room here;
-    public static List<Room> rooms = new ArrayList<>();
+    private static Room here;
+    private static List<Room> rooms = new ArrayList<>();
     public static void roomArchive(){
         Room room2=new Room ("Second Room","This is the starter description for the second room");
         Room room1=new Room ("Starting Room","This is the starter description for the first room");
