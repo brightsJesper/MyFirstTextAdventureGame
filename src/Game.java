@@ -6,12 +6,8 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Game {
-    public static void game() {
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-
-
-
+    public static void init() {
+        Room here =
     }
 }
 
