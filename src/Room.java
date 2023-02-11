@@ -1,11 +1,11 @@
 package src;
 
 public class Room {
-    private int rCode;
+    private String rCode;
    private String name;
    private String desc;
 
-    public void setrCode(int rCode) {
+    public void setrCode(String rCode) {
         this.rCode = rCode;
     }
 
@@ -17,7 +17,7 @@ public class Room {
         this.desc = desc;
     }
 
-    public int getrCode() {
+    public String getrCode() {
         return rCode;
     }
 
@@ -30,6 +30,7 @@ public class Room {
     }
 
     public Room(String name, String desc) {
+        this.rCode = rCode;
         this.name = name;
         this.desc = desc;
     }
