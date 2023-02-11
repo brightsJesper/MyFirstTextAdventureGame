@@ -3,6 +3,7 @@ package src;
 public class Main {
 
     public static void main(String[] args) {
+        Vault.setHere();
         System.out.println(Vault.getRooms().toString());
         System.out.println(Vault.getRooms().size());
         //Game.game();
