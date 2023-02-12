@@ -4,16 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Vault {
-    public static ArrayList<Room> roomArchive() {
-        Room room2 = new Room("Second Room", "This is the starter description for the second room");
-        Room room1 = new Room("Starting Room", "This is the starter description for the first room");
-        Room rStart = new Room("Starting Room", "This is the starter description for the first room");
-
-        ArrayList<Room> rooms = new ArrayList<>();
-
-        rooms.add(room2);
-        rooms.add(room1);
-        rooms.add(rStart);
+    public static List<Room> roomArchive() {
+        List<Room> rooms = new ArrayList<>();
+        rooms.add(new Room("room1"));
+       // rooms.get(rooms.indexOf(new Room("room1"))).setDesc("This is the first room");
+        /*
+        rooms.get(rooms.indexOf(new Room("room1"))).setName("First Room");
+        rooms.add(new Room("room2"));
+        rooms.get(rooms.indexOf(new Room("room2"))).setDesc("This is the second room");
+        rooms.get(rooms.indexOf(new Room("room2"))).setName("Second Room");
+        rooms.add(new Room("start"));
+        rooms.get(rooms.indexOf(new Room("start"))).setDesc("starting room");
+        rooms.get(rooms.indexOf(new Room("start"))).setName("Start");
+       */
         return rooms;
     }
 

@@ -29,9 +29,11 @@ public class Room {
         return desc;
     }
 
-    public Room(String name, String desc) {
+    public Room(String rCode) {
         this.rCode = rCode;
-        this.name = name;
+      /*  this.name = name;
         this.desc = desc;
+
+       */
     }
 }
